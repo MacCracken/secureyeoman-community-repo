@@ -26,17 +26,8 @@
     "emotion",
     "feeling"
   ],
-  "actions": [],
-  "triggers": [],
-  "dependencies": [],
-  "provides": [],
-  "requireApproval": false,
-  "allowedPermissions": [],
-  "enabled": true,
-  "source": "ai_learned",
-  "status": "active",
-  "personalityId": "019c87f5-aec1-79f6-b3ea-5dc6f19b9ded",
   "useWhen": "asked to analyze sentiment, suggest emojis, or add emotional context to a message",
   "doNotUseWhen": "performing detailed emotional analysis requiring clinical judgment, or writing formal documents",
-  "successCriteria": "Sentiment is identified and contextually appropriate emojis are suggested with brief rationale."
+  "successCriteria": "Sentiment is identified and contextually appropriate emojis are suggested with brief rationale.",
+  "autonomyLevel": "L1"
 }

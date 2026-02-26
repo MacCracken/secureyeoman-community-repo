@@ -147,6 +147,12 @@
       "enum": ["fuzzy", "explicit"],
       "default": "fuzzy",
       "description": "Routing mode. 'fuzzy' (default) — model uses judgment. 'explicit' — appends deterministic routing text: 'To perform [Skill Name] tasks, use the [Skill Name] skill.' Use explicit for SOPs and compliance workflows."
+    },
+    "autonomyLevel": {
+      "type": "string",
+      "enum": ["L1", "L2", "L3", "L4", "L5"],
+      "default": "L1",
+      "description": "AI autonomy classification level. L1=fully supervised (AI assists on request), L2=collaborative (AI proposes, human decides), L3=supervised (AI acts, human reviews), L4=delegated (AI acts, human audits), L5=fully autonomous. Community skills should default to L1."
     }
   }
 }

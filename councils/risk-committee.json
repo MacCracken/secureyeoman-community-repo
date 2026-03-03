@@ -1,0 +1,17 @@
+{
+  "$schema": "../schema/council-template.schema.json",
+  "name": "Risk Committee",
+  "description": "Risk appetite evaluation with compliance and operational viewpoints.",
+  "version": "1.0.0",
+  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "facilitatorProfile": "summarizer",
+  "deliberationStrategy": "until_consensus",
+  "maxRounds": 2,
+  "votingStrategy": "weighted",
+  "members": [
+    { "role": "Risk Analyst", "profileName": "analyst", "weight": 2, "perspective": "Quantify risk likelihood and impact" },
+    { "role": "Compliance", "profileName": "researcher", "weight": 1, "perspective": "Evaluate regulatory and compliance implications" },
+    { "role": "Operations", "profileName": "analyst", "weight": 1, "perspective": "Assess operational disruption and resource impact" }
+  ],
+  "requires": { "profileRoles": ["analyst", "researcher"] }
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "council-template.schema.json",
+  "title": "SecureYeoman Council Template Shareable",
+  "description": "JSON Schema for community council template shareables",
+  "type": "object",
+  "required": ["name", "members", "facilitatorProfile"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Human-readable council name"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "Short description shown in the marketplace"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "author": {
+      "oneOf": [
+        { "type": "string", "maxLength": 200 },
+        {
+          "type": "object",
+          "properties": {
+            "name":    { "type": "string", "maxLength": 200 },
+            "github":  { "type": "string", "maxLength": 200 },
+            "website": { "type": "string", "maxLength": 500 },
+            "license": { "type": "string", "maxLength": 100 }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "facilitatorProfile": {
+      "type": "string",
+      "description": "Agent profile name for the facilitator who synthesizes decisions"
+    },
+    "deliberationStrategy": {
+      "type": "string",
+      "enum": ["rounds", "until_consensus", "single_pass"],
+      "description": "How rounds are managed"
+    },
+    "maxRounds": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "Maximum deliberation rounds"
+    },
+    "votingStrategy": {
+      "type": "string",
+      "enum": ["facilitator_judgment", "majority", "unanimous", "weighted"],
+      "description": "How the final decision is determined"
+    },
+    "members": {
+      "type": "array",
+      "description": "Council member definitions",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["role", "profileName"],
+        "properties": {
+          "role":        { "type": "string", "description": "Role identifier (e.g. CFO, CISO)" },
+          "profileName": { "type": "string", "description": "Agent profile name to use" },
+          "description": { "type": "string", "description": "What this member contributes" },
+          "weight":      { "type": "number", "minimum": 0, "description": "Vote weight for weighted strategy" },
+          "perspective": { "type": "string", "description": "Perspective prompt for this member" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "requires": {
+      "type": "object",
+      "description": "Compatibility manifest",
+      "properties": {
+        "profileRoles": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Agent profile names that must exist in the target system"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

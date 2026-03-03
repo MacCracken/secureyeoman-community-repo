@@ -1,0 +1,17 @@
+{
+  "$schema": "../schema/council-template.schema.json",
+  "name": "Incident Response Council",
+  "description": "Fast-track incident triage — single pass, all perspectives in parallel.",
+  "version": "1.0.0",
+  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "facilitatorProfile": "summarizer",
+  "deliberationStrategy": "single_pass",
+  "maxRounds": 1,
+  "votingStrategy": "facilitator_judgment",
+  "members": [
+    { "role": "Analyst", "profileName": "analyst", "perspective": "Assess technical root cause and blast radius" },
+    { "role": "Responder", "profileName": "coder", "perspective": "Identify immediate remediation steps" },
+    { "role": "Comms", "profileName": "summarizer", "perspective": "Draft stakeholder communication and timeline" }
+  ],
+  "requires": { "profileRoles": ["analyst", "coder", "summarizer"] }
+}

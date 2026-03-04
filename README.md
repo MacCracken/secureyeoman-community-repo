@@ -474,7 +474,7 @@ POST /api/v1/marketplace/community/sync
 
 # Or sync from a custom URL
 POST /api/v1/marketplace/community/sync
-{ "repoUrl": "https://github.com/MacCracken/secureyeoman-community-skills" }
+{ "repoUrl": "https://github.com/MacCracken/secureyeoman-community-repo" }
 ```
 
 Only `https://` and `file://` URLs are accepted. The policy is **off by default** for security.
@@ -483,7 +483,7 @@ Only `https://` and `file://` URLs are accepted. The policy is **off by default*
 
 ```bash
 # Clone alongside your secureyeoman install
-git clone https://github.com/MacCracken/secureyeoman-community-skills.git ../secureyeoman-community-skills
+git clone https://github.com/MacCracken/secureyeoman-community-repo.git ../secureyeoman-community-repo
 
 # Sync skills into SecureYeoman
 POST /api/v1/marketplace/community/sync

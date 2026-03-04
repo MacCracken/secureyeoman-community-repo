@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/MacCracken/secureyeoman-community-skills/schema/skill.schema.json",
+  "$id": "https://github.com/MacCracken/secureyeoman-community-repo/schema/skill.schema.json",
   "title": "SecureYeoman Community Skill",
   "description": "Schema for a community-contributed SecureYeoman skill",
   "type": "object",

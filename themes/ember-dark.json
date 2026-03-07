@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Ember Dark",
   "description": "Charcoal dark theme with warm ember-orange highlights",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": true,
   "preview": ["#1a1010", "#f0dcd0", "#f97316"],

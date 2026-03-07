@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Paper Cream",
   "description": "Warm off-white light theme reminiscent of aged parchment with ink-black text",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": false,
   "preview": ["#faf6f0", "#2a2520", "#7c6340"],

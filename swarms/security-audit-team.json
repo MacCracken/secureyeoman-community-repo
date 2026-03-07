@@ -3,7 +3,7 @@
   "name": "Security Audit Team",
   "description": "A sequential security audit swarm: a researcher identifies attack surfaces, an ethical hacker probes for vulnerabilities, and a technical writer documents the findings.",
   "version": "1.0.0",
-  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "strategy": "sequential",
   "roles": [
     {

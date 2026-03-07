@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Sandstone",
   "description": "Warm neutral light theme with earthy tan and brown tones",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": false,
   "preview": ["#faf8f5", "#292018", "#a3742c"],

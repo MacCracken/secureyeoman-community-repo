@@ -3,7 +3,7 @@
   "name": "Content Review Gate",
   "description": "A reviewer agent assesses submitted content, conditionally approves or rejects it, and sends a webhook notification with the decision.",
   "version": "1.0.0",
-  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "category": "automation",
   "tags": ["content-review", "moderation", "approval", "webhook"],
   "autonomyLevel": "L2",

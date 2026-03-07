@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Obsidian Gold",
   "description": "Near-black dark theme with luxurious gold accents",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": true,
   "preview": ["#0e0e0e", "#e8e0d0", "#d4a547"],

@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Midnight Violet",
   "description": "Deep purple dark theme with lavender accents for late-night sessions",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": true,
   "preview": ["#110b1f", "#e4daf0", "#a78bfa"],

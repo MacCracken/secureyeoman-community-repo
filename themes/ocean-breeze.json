@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Ocean Breeze",
   "description": "Cool blue and teal dark theme inspired by deep ocean depths",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": true,
   "preview": ["#0a1628", "#e2e8f0", "#38bdf8"],

@@ -3,7 +3,7 @@
   "name": "Incident Response Council",
   "description": "Fast-track incident triage — single pass, all perspectives in parallel.",
   "version": "1.0.0",
-  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "facilitatorProfile": "summarizer",
   "deliberationStrategy": "single_pass",
   "maxRounds": 1,

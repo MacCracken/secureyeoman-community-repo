@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Arctic Frost",
   "description": "Cool grey-blue dark theme inspired by polar twilight",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": true,
   "preview": ["#0c1420", "#c8d6e5", "#60a5fa"],

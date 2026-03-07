@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Lavender Haze",
   "description": "Soft purple light theme with gentle lavender tones",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": false,
   "preview": ["#faf5ff", "#1a1025", "#8b5cf6"],

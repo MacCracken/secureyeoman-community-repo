@@ -3,7 +3,7 @@
   "name": "Trade Analysis & Journal Workflow",
   "description": "Workflow for analyzing completed trades, calculating performance statistics, and generating performance reports with win rate, Sharpe ratio, and max drawdown.",
   "version": "2026.3.4",
-  "author": { "name": "YEOMAN", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "category": "trading",
   "tags": ["trading", "journal", "analysis", "performance", "stats"],
   "autonomyLevel": "L3",

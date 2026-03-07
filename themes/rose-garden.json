@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Rose Garden",
   "description": "Soft pink light theme with warm rose and blush tones",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": false,
   "preview": ["#fdf2f8", "#1c1017", "#e11d48"],

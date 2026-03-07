@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Mint Fresh",
   "description": "Crisp light theme with refreshing mint-green accents",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": false,
   "preview": ["#f0fdf4", "#14231a", "#10b981"],

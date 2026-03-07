@@ -3,7 +3,7 @@
   "name": "Multi-Timeframe Analysis Workflow",
   "description": "Workflow for conducting multi-timeframe analysis (HTF/MTF/LTF alignment) and generating trade recommendations based on confluence of signals across timeframes.",
   "version": "2026.3.4",
-  "author": { "name": "YEOMAN", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "category": "trading",
   "tags": ["trading", "multi-timeframe", "analysis", "confluence"],
   "autonomyLevel": "L3",

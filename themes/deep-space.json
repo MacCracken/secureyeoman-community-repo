@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Deep Space",
   "description": "Inky dark theme with cosmic indigo and starlight silver tones",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": true,
   "preview": ["#090818", "#c8c8e0", "#818cf8"],

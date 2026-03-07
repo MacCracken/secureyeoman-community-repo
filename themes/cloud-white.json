@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Cloud White",
   "description": "Clean minimal light theme with soft blue accents",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": false,
   "preview": ["#f8fafc", "#0f172a", "#3b82f6"],

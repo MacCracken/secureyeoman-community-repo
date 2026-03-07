@@ -3,7 +3,7 @@
   "name": "Risk & Position Sizing Calculator",
   "description": "Workflow for calculating optimal position sizes, risk/reward ratios, Kelly Criterion position sizing, and portfolio risk metrics for trading.",
   "version": "2026.3.4",
-  "author": { "name": "YEOMAN", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "category": "trading",
   "tags": ["trading", "risk", "position-sizing", "kelly", "calculator"],
   "autonomyLevel": "L2",

@@ -3,7 +3,7 @@
   "name": "Full-Stack Dev Crew",
   "description": "A sequential development swarm: an analyst clarifies requirements, a coder implements them, and a reviewer checks the output for quality and correctness.",
   "version": "1.0.0",
-  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "strategy": "sequential",
   "roles": [
     {

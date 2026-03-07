@@ -3,7 +3,7 @@
   "name": "Research Report Pipeline",
   "description": "Multi-stage research pipeline: a researcher agent gathers sources, an analyst synthesises findings, a formatter structures the output, and the report is saved to the knowledge base.",
   "version": "1.0.0",
-  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "category": "research",
   "tags": ["research", "report", "pipeline", "multi-agent", "knowledge-base"],
   "autonomyLevel": "L3",

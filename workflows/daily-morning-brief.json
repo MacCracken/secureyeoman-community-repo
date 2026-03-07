@@ -3,7 +3,7 @@
   "name": "Daily Morning Brief",
   "description": "Fetches news and calendar context each weekday morning, formats a concise briefing, and delivers it via Gmail.",
   "version": "1.0.0",
-  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "category": "productivity",
   "tags": ["daily-brief", "gmail", "calendar", "news", "automation"],
   "autonomyLevel": "L3",

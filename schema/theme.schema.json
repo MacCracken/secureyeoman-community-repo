@@ -22,8 +22,20 @@
       "description": "Short description of the theme"
     },
     "author": {
-      "type": "string",
-      "description": "Theme author name or username"
+      "oneOf": [
+        { "type": "string" },
+        {
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "name": { "type": "string" },
+            "github": { "type": "string" },
+            "website": { "type": "string", "format": "uri" }
+          },
+          "additionalProperties": false
+        }
+      ],
+      "description": "Theme author — plain string or structured object with name, github, and website"
     },
     "version": {
       "type": "string",

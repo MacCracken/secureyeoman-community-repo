@@ -3,7 +3,7 @@
   "name": "Risk Committee",
   "description": "Risk appetite evaluation with compliance and operational viewpoints.",
   "version": "1.0.0",
-  "author": { "name": "SecureYeoman Community", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "facilitatorProfile": "summarizer",
   "deliberationStrategy": "until_consensus",
   "maxRounds": 2,

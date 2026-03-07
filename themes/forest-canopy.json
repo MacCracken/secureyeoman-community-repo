@@ -2,7 +2,7 @@
   "$schema": "../schema/theme.schema.json",
   "name": "Forest Canopy",
   "description": "Green and earth-tone dark theme evoking a dense forest canopy",
-  "author": "community",
+  "author": {"github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai"},
   "version": "1.0.0",
   "isDark": true,
   "preview": ["#0f1a0f", "#d4e7c5", "#4ade80"],

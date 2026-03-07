@@ -3,7 +3,7 @@
   "name": "Daily Trading Setup Workflow",
   "description": "Automated workflow for generating daily trading setups. Includes market structure analysis, key level identification, and trade setup scanning across multiple instruments.",
   "version": "2026.3.4",
-  "author": { "name": "YEOMAN", "github": "MacCracken" },
+  "author": { "github": "MacCracken", "name": "YEOMAN", "website": "https://secureyeoman.ai" },
   "category": "trading",
   "tags": ["trading", "daily", "setup", "analysis", "levels"],
   "autonomyLevel": "L3",

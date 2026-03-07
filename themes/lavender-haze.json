@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Lavender Haze",
+  "description": "Soft purple light theme with gentle lavender tones",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": false,
+  "preview": ["#faf5ff", "#1a1025", "#8b5cf6"],
+  "variables": {
+    "background": "#faf5ff",
+    "foreground": "#1a1025",
+    "card": "#fdfaff",
+    "cardForeground": "#1a1025",
+    "primary": "#8b5cf6",
+    "primaryForeground": "#ffffff",
+    "secondary": "#ede9fe",
+    "secondaryForeground": "#5b21b6",
+    "muted": "#f3f0ff",
+    "mutedForeground": "#6d28d9",
+    "accent": "#7c3aed",
+    "accentForeground": "#ffffff",
+    "destructive": "#dc2626",
+    "destructiveForeground": "#fef2f2",
+    "border": "#e9e0f8",
+    "input": "#e9e0f8",
+    "ring": "#8b5cf6"
+  }
+}

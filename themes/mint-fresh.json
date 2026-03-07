@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Mint Fresh",
+  "description": "Crisp light theme with refreshing mint-green accents",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": false,
+  "preview": ["#f0fdf4", "#14231a", "#10b981"],
+  "variables": {
+    "background": "#f0fdf4",
+    "foreground": "#14231a",
+    "card": "#f7fef9",
+    "cardForeground": "#14231a",
+    "primary": "#10b981",
+    "primaryForeground": "#ffffff",
+    "secondary": "#d1fae5",
+    "secondaryForeground": "#065f46",
+    "muted": "#dcfce7",
+    "mutedForeground": "#047857",
+    "accent": "#059669",
+    "accentForeground": "#ffffff",
+    "destructive": "#dc2626",
+    "destructiveForeground": "#fef2f2",
+    "border": "#d1fae5",
+    "input": "#d1fae5",
+    "ring": "#10b981"
+  }
+}

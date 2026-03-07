@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Sandstone",
+  "description": "Warm neutral light theme with earthy tan and brown tones",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": false,
+  "preview": ["#faf8f5", "#292018", "#a3742c"],
+  "variables": {
+    "background": "#faf8f5",
+    "foreground": "#292018",
+    "card": "#fefcf8",
+    "cardForeground": "#292018",
+    "primary": "#a3742c",
+    "primaryForeground": "#fefcf8",
+    "secondary": "#f0e6d6",
+    "secondaryForeground": "#6b4c1f",
+    "muted": "#f5efe4",
+    "mutedForeground": "#8a6e48",
+    "accent": "#8b5e20",
+    "accentForeground": "#fefcf8",
+    "destructive": "#dc2626",
+    "destructiveForeground": "#fef2f2",
+    "border": "#e8dcc8",
+    "input": "#e8dcc8",
+    "ring": "#a3742c"
+  }
+}

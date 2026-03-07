@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Iron Fortress",
+  "description": "Hardened steel-grey dark theme designed for security operations centers",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": true,
+  "preview": ["#141618", "#c5c8cd", "#71717a"],
+  "variables": {
+    "background": "#141618",
+    "foreground": "#c5c8cd",
+    "card": "#1c1e22",
+    "cardForeground": "#c5c8cd",
+    "primary": "#71717a",
+    "primaryForeground": "#ffffff",
+    "secondary": "#27272a",
+    "secondaryForeground": "#c5c8cd",
+    "muted": "#202225",
+    "mutedForeground": "#8a8d95",
+    "accent": "#52525b",
+    "accentForeground": "#e4e4e7",
+    "destructive": "#ef4444",
+    "destructiveForeground": "#fef2f2",
+    "border": "#27272a",
+    "input": "#27272a",
+    "ring": "#a1a1aa"
+  }
+}

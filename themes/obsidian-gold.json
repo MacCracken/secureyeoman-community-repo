@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Obsidian Gold",
+  "description": "Near-black dark theme with luxurious gold accents",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": true,
+  "preview": ["#0e0e0e", "#e8e0d0", "#d4a547"],
+  "variables": {
+    "background": "#0e0e0e",
+    "foreground": "#e8e0d0",
+    "card": "#181818",
+    "cardForeground": "#e8e0d0",
+    "primary": "#d4a547",
+    "primaryForeground": "#0e0e0e",
+    "secondary": "#2a2210",
+    "secondaryForeground": "#e8e0d0",
+    "muted": "#222222",
+    "mutedForeground": "#9a9080",
+    "accent": "#b8942e",
+    "accentForeground": "#e8e0d0",
+    "destructive": "#ef4444",
+    "destructiveForeground": "#fef2f2",
+    "border": "#2a2a2a",
+    "input": "#2a2a2a",
+    "ring": "#d4a547"
+  }
+}

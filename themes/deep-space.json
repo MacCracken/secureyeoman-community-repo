@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Deep Space",
+  "description": "Inky dark theme with cosmic indigo and starlight silver tones",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": true,
+  "preview": ["#090818", "#c8c8e0", "#818cf8"],
+  "variables": {
+    "background": "#090818",
+    "foreground": "#c8c8e0",
+    "card": "#110f24",
+    "cardForeground": "#c8c8e0",
+    "primary": "#818cf8",
+    "primaryForeground": "#090818",
+    "secondary": "#1e1a3a",
+    "secondaryForeground": "#c8c8e0",
+    "muted": "#181530",
+    "mutedForeground": "#8888a8",
+    "accent": "#6366f1",
+    "accentForeground": "#c8c8e0",
+    "destructive": "#ef4444",
+    "destructiveForeground": "#fef2f2",
+    "border": "#1e1a3a",
+    "input": "#1e1a3a",
+    "ring": "#818cf8"
+  }
+}

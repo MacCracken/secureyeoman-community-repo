@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Arctic Frost",
+  "description": "Cool grey-blue dark theme inspired by polar twilight",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": true,
+  "preview": ["#0c1420", "#c8d6e5", "#60a5fa"],
+  "variables": {
+    "background": "#0c1420",
+    "foreground": "#c8d6e5",
+    "card": "#121e30",
+    "cardForeground": "#c8d6e5",
+    "primary": "#60a5fa",
+    "primaryForeground": "#0c1420",
+    "secondary": "#1e3050",
+    "secondaryForeground": "#c8d6e5",
+    "muted": "#1a2840",
+    "mutedForeground": "#8899aa",
+    "accent": "#3b82f6",
+    "accentForeground": "#c8d6e5",
+    "destructive": "#ef4444",
+    "destructiveForeground": "#fef2f2",
+    "border": "#1a2840",
+    "input": "#1a2840",
+    "ring": "#60a5fa"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Midnight Violet",
+  "description": "Deep purple dark theme with lavender accents for late-night sessions",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": true,
+  "preview": ["#110b1f", "#e4daf0", "#a78bfa"],
+  "variables": {
+    "background": "#110b1f",
+    "foreground": "#e4daf0",
+    "card": "#1a1030",
+    "cardForeground": "#e4daf0",
+    "primary": "#a78bfa",
+    "primaryForeground": "#110b1f",
+    "secondary": "#2e1a5e",
+    "secondaryForeground": "#e4daf0",
+    "muted": "#251545",
+    "mutedForeground": "#a097b8",
+    "accent": "#8b5cf6",
+    "accentForeground": "#e4daf0",
+    "destructive": "#ef4444",
+    "destructiveForeground": "#fef2f2",
+    "border": "#251545",
+    "input": "#251545",
+    "ring": "#a78bfa"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Rose Garden",
+  "description": "Soft pink light theme with warm rose and blush tones",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": false,
+  "preview": ["#fdf2f8", "#1c1017", "#e11d48"],
+  "variables": {
+    "background": "#fdf2f8",
+    "foreground": "#1c1017",
+    "card": "#fff5f9",
+    "cardForeground": "#1c1017",
+    "primary": "#e11d48",
+    "primaryForeground": "#ffffff",
+    "secondary": "#fce7f3",
+    "secondaryForeground": "#831843",
+    "muted": "#fce7f3",
+    "mutedForeground": "#9f1239",
+    "accent": "#be185d",
+    "accentForeground": "#ffffff",
+    "destructive": "#dc2626",
+    "destructiveForeground": "#fef2f2",
+    "border": "#fce7f3",
+    "input": "#fce7f3",
+    "ring": "#e11d48"
+  }
+}

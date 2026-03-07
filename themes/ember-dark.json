@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Ember Dark",
+  "description": "Charcoal dark theme with warm ember-orange highlights",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": true,
+  "preview": ["#1a1010", "#f0dcd0", "#f97316"],
+  "variables": {
+    "background": "#1a1010",
+    "foreground": "#f0dcd0",
+    "card": "#241818",
+    "cardForeground": "#f0dcd0",
+    "primary": "#f97316",
+    "primaryForeground": "#1a1010",
+    "secondary": "#4a2020",
+    "secondaryForeground": "#f0dcd0",
+    "muted": "#352020",
+    "mutedForeground": "#b8a090",
+    "accent": "#ea580c",
+    "accentForeground": "#f0dcd0",
+    "destructive": "#ef4444",
+    "destructiveForeground": "#fef2f2",
+    "border": "#352020",
+    "input": "#352020",
+    "ring": "#f97316"
+  }
+}

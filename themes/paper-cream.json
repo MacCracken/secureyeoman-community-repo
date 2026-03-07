@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Paper Cream",
+  "description": "Warm off-white light theme reminiscent of aged parchment with ink-black text",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": false,
+  "preview": ["#faf6f0", "#2a2520", "#7c6340"],
+  "variables": {
+    "background": "#faf6f0",
+    "foreground": "#2a2520",
+    "card": "#fefaf4",
+    "cardForeground": "#2a2520",
+    "primary": "#7c6340",
+    "primaryForeground": "#fefaf4",
+    "secondary": "#ede5d8",
+    "secondaryForeground": "#5a4a35",
+    "muted": "#f2ece2",
+    "mutedForeground": "#786858",
+    "accent": "#6b5530",
+    "accentForeground": "#fefaf4",
+    "destructive": "#c42b2b",
+    "destructiveForeground": "#fef2f2",
+    "border": "#e0d8ca",
+    "input": "#e0d8ca",
+    "ring": "#7c6340"
+  }
+}

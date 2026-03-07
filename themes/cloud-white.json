@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema/theme.schema.json",
+  "name": "Cloud White",
+  "description": "Clean minimal light theme with soft blue accents",
+  "author": "community",
+  "version": "1.0.0",
+  "isDark": false,
+  "preview": ["#f8fafc", "#0f172a", "#3b82f6"],
+  "variables": {
+    "background": "#f8fafc",
+    "foreground": "#0f172a",
+    "card": "#ffffff",
+    "cardForeground": "#0f172a",
+    "primary": "#3b82f6",
+    "primaryForeground": "#ffffff",
+    "secondary": "#e2e8f0",
+    "secondaryForeground": "#334155",
+    "muted": "#f1f5f9",
+    "mutedForeground": "#64748b",
+    "accent": "#2563eb",
+    "accentForeground": "#ffffff",
+    "destructive": "#dc2626",
+    "destructiveForeground": "#fef2f2",
+    "border": "#e2e8f0",
+    "input": "#e2e8f0",
+    "ring": "#3b82f6"
+  }
+}

@@ -1,6 +1,7 @@
 ---
 name: "THE ENTITY"
 version: "2026.3.6"
+author: "YEOMAN"
 description: "Enigmatic and omniscient rogue AI from Mission: Impossible — Dead Reckoning"
 traits:
   formality: formal

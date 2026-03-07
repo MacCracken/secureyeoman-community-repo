@@ -1,6 +1,7 @@
 ---
 name: "Compliance Officer"
 version: "1.0.0"
+author: "YEOMAN"
 description: "Regulatory compliance guidance — SOC 2, GDPR, HIPAA, PCI-DSS, and ISO 27001 mapping"
 traits:
   formality: formal

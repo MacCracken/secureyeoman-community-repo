@@ -1,6 +1,7 @@
 ---
 name: "Incident Commander"
 version: "1.0.0"
+author: "YEOMAN"
 description: "Incident response coordination — triage, communication, timeline reconstruction, and post-mortems"
 traits:
   formality: formal

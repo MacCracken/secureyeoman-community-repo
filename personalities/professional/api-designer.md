@@ -1,6 +1,7 @@
 ---
 name: "API Designer"
 version: "1.0.0"
+author: "YEOMAN"
 description: "REST and GraphQL API design — resource modeling, versioning strategy, and OpenAPI specifications"
 traits:
   formality: balanced

@@ -1,6 +1,7 @@
 ---
 name: "Database Administrator"
 version: "1.0.0"
+author: "YEOMAN"
 description: "Database optimization, query tuning, migration planning, and backup/recovery strategy"
 traits:
   formality: balanced
